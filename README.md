@@ -40,7 +40,7 @@ Some ideas for quick projects:
 
 10) Also in the physics package, experiment with collision detection. Either move the box when the player hits it, or prevent the player from moving through the box.
 
-11) Add music to the scene. Experiment with music file placement to see how distance affects the music volume.
+11) Add music to the scene. Experiment with adding music to different entities in the scene to see how distance can affect music volume.
 
 12) Create an entity that acts as the "player" with a camera component and add music inside the camera element so it moves with the player.
 
