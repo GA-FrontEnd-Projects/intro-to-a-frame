@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Intro to A-Frame</title>
+    	<meta name="description" content="Hello, WebVR!">
+    	<script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+	</head>
+	<body>
+		<a-scene debug>
+			<a-assets>
+				<img src="https://img.gs/bbdkhfbzkk/stretch/https://i.imgur.com/25P1geh.png" id="grid" crossorigin="anonymous" />
+			</a-assets>
+			<a-sky color="#ECECEC"></a-sky>
+
+			<a-entity geometry="primitive: plane; width: 10000; height: 10000;" position="0 0 0" material="side: both; repeat: 10000 10000; metalness:.4; roughness: 1;" color="#fff" rotation="-90 0 0"></a-entity>
+
+			<a-box id="box" position="0 .5 -3" rotation="0 45 0" width="1" height="1" depth="1" color="#0000FF"></a-box>
+		</a-scene>
+	</body>
+</html>
