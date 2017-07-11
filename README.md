@@ -18,18 +18,32 @@ Open the index.html file in this folder to start with a default scene, which you
 
 Some ideas for quick projects:
 
-1) Make the box change color when a cursor hovers over it (and change the color back to the original when the cursor leaves it)
+1) Change the box color from blue to red.
 
-2) Create an animation to move the box in a repeating pattern.
+2) Change the box height, width, and depth to 10.
 
-3) Include the additional [physics package](https://github.com/donmccurdy/aframe-physics-system) and experiment with gravity.
+3) Make sure the box bottom rests on the floor (and not in the floor).
 
-4) Also in the physics package, experiment with collision detection. Either move the box when the player hits it, or prevent the player from moving through the box.
+4) Turn the box so that an edge connecting the bottom and top faces is directly in front of you, rather than one of its faces being directly in front of you.
 
-5) Add music to the scene. Experiment with music file placement to see how distance affects the music volume.
+5) Move the box so that it sits at your 3 o'clock when the page loads.
 
-6) Create an entity that acts as the "player" with a camera component and add music inside the camera element so it moves with the player.
+5) Move the box so that it sits at your 9 o'clock when the page loads.
 
-7) Create a mixin for the box and spawn a new box when a user clicks on a box (use components for the click handler and random placement of the new boxes).
+6) Add a purple sphere with a radius of 5 five meters ahead of you at your 12 o'clock. Make sure its bottom rests on the floor.
+
+7) Make the box change color when a cursor hovers over it (and change the color back to the original when the cursor leaves it. (Hint: look up the `a-cursor` element and some mouse events).
+
+8) Create an animation to move the box in a repeating pattern. Look for elements in the documentation that might help you with this.
+
+9) Include the additional [physics package](https://github.com/donmccurdy/aframe-physics-system) and experiment with gravity.
+
+10) Also in the physics package, experiment with collision detection. Either move the box when the player hits it, or prevent the player from moving through the box.
+
+11) Add music to the scene. Experiment with music file placement to see how distance affects the music volume.
+
+12) Create an entity that acts as the "player" with a camera component and add music inside the camera element so it moves with the player.
+
+13) Create a mixin for the box and spawn a new box when a user clicks on a box (use components for the click handler and random placement of the new boxes).
 
 When you're ready to see the product of your work in VR, set up a new project on [Glitch.me]()
