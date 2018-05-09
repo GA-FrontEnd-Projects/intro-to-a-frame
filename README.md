@@ -5,7 +5,7 @@
 There is a lot to A-Frame, so we're going to be focusing on the basics in this project, and you can continue to experiment with the library on your own to get a feel for what else it can do.
 
 ## What is it?
-A-Frame is a JavaScript/HTML framework built on top of THREE.js that makes it easy to create 3D and VR experiences on the web. Just like regular HTML, you can change a given tag's (in A-Frame, tags are called `entities`) behaviors and appearance by passing information into attributes. You can also write custom JavaScript to create specific behaviors for entities.
+A-Frame is a JavaScript/HTML framework built on top of THREE.js that makes it easy to create 3D and VR experiences that run in regular web browsers. Just like regular HTML, you can change a given tag's (in A-Frame, tags are called `entities`) behaviors and appearance by passing information into attributes. You can also write custom JavaScript to create specific behaviors for entities.
 
 ## Why is it cool?
 There has been a big push on VR over the past few years, mostly with headset-based experiences. If you've tried any of the popular experiences, you'll know that they're incredible, but they still face a number of problems. The headsets and computers that are needed to run these experiences are expensive, the experiences don't always work on every headset, content is expensive to create, and the audience who can see a given experience is limited to people who can afford the expensive headsets and computers. WebVR (which A-Frame creates) solves a lot of these problems.
