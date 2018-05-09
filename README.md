@@ -4,16 +4,25 @@
 
 There is a lot to A-Frame, so we're going to be focusing on the basics in this project, and you can continue to experiment with the library on your own to get a feel for what else it can do.
 
-A-Frame uses a declarative superset of HTML tags to construct scenes and experiences. Just like regular HTML, you can change a given tag's (in A-Frame, these are called `entities`) behaviors and appearance by passing information into attributes. You can also write custom JavaScript to create specific behaviors for entities.
+## What is it?
+A-Frame is a JavaScript/HTML framework built on top of THREE.js that makes it easy to create 3D and VR experiences on the web. Just like regular HTML, you can change a given tag's (in A-Frame, tags are called `entities`) behaviors and appearance by passing information into attributes. You can also write custom JavaScript to create specific behaviors for entities.
 
-Before we get started, here are some terms you should know:
+## Why is it cool?
+There has been a big push on VR over the past few years, mostly with headset-based experiences. If you've tried any of the popular experiences, you'll know that they're incredible, but they still face a number of problems. The headsets and computers that are needed to run these experiences are expensive, the experiences don't always work on every headset, content is expensive to create, and the audience who can see a given experience is limited to people who can afford the expensive headsets and computers. WebVR (which A-Frame creates) solves a lot of these problems.
 
-*Scene*: Broadly, the experience you create in an A-Frame project. In the code, it starts with the `<a-scene>` element.
+Most personal computers these days have the power to run decent VR experiences. If you have an up-to-date, major browser, you shouldn't run into too much trouble. It's also much easier to create an experience for WebVR -- the skills required to create experiences are just about the same as what's required to build a webpage. Since content is accessible via the web, the potential audience is huge. WebVR also works on (and is sometimes better on) mobile devices, either through a standard browser view or by using a Cardboard.
+
+
+## Important terms to know
+Before we get started experimenting with A-Frame, here are some terms you should know:
+
+*Scene*: The experience you create in an A-Frame project. In the code, it starts with the `<a-scene>` element.
 
 *Entity*: Any of the items in your scene, represented by HTML tags, regardless of whether the items are visible in the scene. In the code, these are represented by primitive shapes (`<a-plane>`, `<a-circle>`, `<a-box>`, etc.) and by `<a-entity>` tags, which you can think of as A-Frame's version of `<div>`s.
 
-*Component*: A set of functionality, written in JavaScript, that can be added to entities by adding the component name and configuration as attributes with semicolon-delimited key-value pairs in their values (`<a-entity geometry="primitive: plane; height: 100; width: 100;"></a-entity>`, for example). A-Frame offers many useful components for us in the core library, but we can also create our own or use components made by other developers.
+*Component*: A set of functionality, written in JavaScript, that can be added to entities by adding HTML attributes with semicolon-delimited key-value pairs in their values (`<a-entity geometry="primitive: plane; height: 100; width: 100;"></a-entity>`, for example). A-Frame offers many useful components for us in the core library, but we can also create our own or use components made by other developers.
 
+## Time to code
 Open the index.html file in this folder to start with a default scene, which you can modify to your liking. You can see other example scenes on A-Frame's homepage, and you should keep the A-Frame documentation open while you're developing.
 
 Some ideas for quick projects:
